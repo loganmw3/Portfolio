@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #023047;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container {
+    display: flex;
+}
+
+#sidebox {
+    height: 400px;
+    width: 200px;
+    background-color: #219ebc;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 30px;
+}
+
+#bigbox {
+    height: 800px;
+    width: 600px;
+    background-color: #256d7f;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
+
+#abtme, #resume, #portfolio{
+    height: 70px;
+    width: 200px;
+    font-size: large;
+    background-color: #256d7f;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px black;
+    border-radius: 20px;
+}
+
+.stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+#selfie{
+    height: auto;
+    width: 100%;
+    border-radius: 20px;
+}
+
+#name{
+    height: auto
+    width 100%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
