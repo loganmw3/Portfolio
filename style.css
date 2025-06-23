@@ -92,5 +92,42 @@ body {
 
 #title{
     color: #ffb703;
-    font-size: 25px;
+    font-size: 20px;
+}
+
+.resume-box{
+    margin: auto;
+    padding: 20px;
+}
+
+
+.resume-title{
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-style: bold;
+}
+
+.resume-sub-title{
+    font-size: 16px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.resume-text{
+    font-size: 12px;
+}
+
+.indent-1{
+    margin-left: 20px;
+}
+
+.indent-2{
+    margin-left: 40px;
+}
+
+.resume-skills{
+    font-style: italic;
+
 }
