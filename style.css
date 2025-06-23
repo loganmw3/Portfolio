@@ -1,12 +1,17 @@
 body {
-    margin: 0;
+    margin: 10;
     font-family: Arial, sans-serif;
     background: #023047;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-bottom: 5%;
+    padding-right: 3%;
 }
 .container {
     display: flex;
+    gap: 10px;
 }
 
 #sidebox {
@@ -21,7 +26,7 @@ body {
 }
 
 #bigbox {
-    height: 800px;
+    height: 900px;
     width: 600px;
     background-color: #256d7f;
     padding-top: 0px;
@@ -58,9 +63,34 @@ body {
 #name{
     height: auto
     width 100%;
-    font-size: 20px;
+    font-size: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 5px;
+    color: #ffb703;
+}
+
+#email{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    color: #ffb703;
+    height: auto
+    width 100%;
+    font-size: 16px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px black;
+    height: auto;
+    width: auto;
+}
+
+#title{
+    color: #ffb703;
+    font-size: 25px;
 }
