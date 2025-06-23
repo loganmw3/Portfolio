@@ -49,6 +49,18 @@ body {
     border-radius: 20px;
 }
 
+#abtme:hover {
+    color: #fb8500;
+  }
+
+#resume:hover {
+    color: #fb8500;
+}
+
+#portfolio:hover {
+    color: #fb8500;
+}
+
 .stack {
     display: flex;
     flex-direction: column;
@@ -131,3 +143,38 @@ body {
     font-style: italic;
 
 }
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    background-color: #256d7f;
+  }
+  
+  .card {
+    text-decoration: none;
+    color: white;
+    background-color: #219ebc;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card .text {
+    padding: 10px;
+    font-family: sans-serif;
+  }
+  
