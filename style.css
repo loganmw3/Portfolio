@@ -12,12 +12,16 @@ body {
 }
 .container {
     display: flex;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
 #sidebox {
-    height: 400px;
-    width: 200px;
+    flex: 1;
+    height: auto;
+    max-height: 500px;
+    min-width: 220px;
+    max-width: 280px;
     background-color: #219ebc;
     padding-top: 30px;
     padding-left: 30px;
@@ -27,10 +31,12 @@ body {
 }
 
 #bigbox {
-    height: 900px;
-    width: 600px;
+    flex: 2;
+    height: auto;
+    min-width: 300px;
+    max-width: 100%;
     background-color: #256d7f;
-    padding-top: 0px;
+    padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -69,13 +75,13 @@ body {
 
 #selfie{
     height: auto;
-    width: 100%;
+    width: auto;
     border-radius: 20px;
 }
 
 #name{
-    height: auto
-    width 100%;
+    height: auto;
+    width: 100%;
     font-size: 25px;
     display: flex;
     justify-content: center;
@@ -89,8 +95,8 @@ body {
     align-content: center;
     display: flex;
     color: #ffb703;
-    height: auto
-    width 100%;
+    height: auto;
+    width: 100%;
     font-size: 16px;
 }
 
