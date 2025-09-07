@@ -57,6 +57,29 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Coastal design tokens
+        ocean: {
+          deep: "hsl(var(--ocean-deep))",
+          primary: "hsl(var(--ocean-primary))",
+          light: "hsl(var(--ocean-light))",
+        },
+        sand: {
+          light: "hsl(var(--sand-light))",
+          accent: "hsl(var(--sand-accent))",
+        },
+        wave: {
+          pattern: "hsl(var(--wave-pattern))",
+        },
+      },
+      backgroundImage: {
+        'gradient-ocean': 'var(--gradient-ocean)',
+        'gradient-sunset': 'var(--gradient-sunset)',
+        'gradient-depth': 'var(--gradient-depth)',
+      },
+      boxShadow: {
+        'gentle': 'var(--shadow-gentle)',
+        'elevated': 'var(--shadow-elevated)',
+        'hero': 'var(--shadow-hero)',
       },
       borderRadius: {
         lg: "var(--radius)",
