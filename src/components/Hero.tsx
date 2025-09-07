@@ -11,20 +11,24 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative bg-gradient-depth">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center relative bg-gradient-depth"
+    >
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-7xl font-bold text-ocean-deep mb-6">
-            Logan
+            Logan Wonnacott
           </h1>
           <h2 className="text-2xl md:text-3xl text-foreground mb-8">
             Computer Engineering Student
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Engineering student focused on efficient systems and clean interfaces.
-            Building reliable embedded and web systems with clear, measurable impact.
+            Engineering student focused on efficient systems and clean
+            interfaces. Building reliable embedded and web systems with clear,
+            measurable impact.
           </p>
-          
+
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
             <Button
               size="lg"
@@ -44,27 +48,39 @@ const Hero = () => {
           </div>
 
           <div className="flex justify-center space-x-6">
-            <Button variant="ghost" size="sm" className="hover:bg-ocean-light/20">
+            <Button
+              variant="ghost"
+              size="sm"
+              className="hover:bg-ocean-light/20"
+              onClick={() =>
+                window.open("https://github.com/loganmw3", "_blank")
+              }
+            >
               <Github className="w-5 h-5 mr-2" />
               GitHub
             </Button>
-            <Button variant="ghost" size="sm" className="hover:bg-ocean-light/20">
+            <Button
+              variant="ghost"
+              size="sm"
+              className="hover:bg-ocean-light/20"
+              onClick={() =>
+                window.open("mailto:loganmw3@illinois.edu", "_blank")
+              }
+            >
               <Mail className="w-5 h-5 mr-2" />
               Email
             </Button>
           </div>
         </div>
       </div>
-
       {/* Wave divider */}
       <div className="absolute bottom-0 left-0 right-0">
-        <img 
-          src={waveDivider} 
-          alt="" 
+        <img
+          src={waveDivider}
+          alt=""
           className="w-full h-8 object-cover opacity-20"
         />
       </div>
-
       {/* Scroll indicator */}
       <Button
         variant="ghost"

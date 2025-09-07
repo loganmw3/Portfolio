@@ -7,24 +7,24 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "logan@example.edu",
-      href: "mailto:logan@example.edu",
-      description: "Best for project inquiries"
+      value: "loganmw3@illinois.edu",
+      href: "mailto:loganmw3@illinois.edu",
+      description: "Best for project inquiries",
     },
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/logan",
-      href: "https://github.com/logan",
-      description: "Code and open source"
+      value: "github.com/loganmw3",
+      href: "https://github.com/loganmw3",
+      description: "Code and open source",
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/logan",
-      href: "https://linkedin.com/in/logan",
-      description: "Professional network"
-    }
+      value: "linkedin.com/in/loganmw3",
+      href: "https://linkedin.com/in/loganmw3",
+      description: "Professional network",
+    },
   ];
 
   return (
@@ -35,7 +35,7 @@ const Contact = () => {
             Get In Touch
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Always open to discussing new opportunities, collaborations, or just 
+            Always open to discussing new opportunities, collaborations, or just
             talking about interesting engineering challenges.
           </p>
 
@@ -43,7 +43,10 @@ const Contact = () => {
             {contactMethods.map((method, index) => {
               const IconComponent = method.icon;
               return (
-                <Card key={index} className="hover:shadow-elevated transition-all duration-300 border-border">
+                <Card
+                  key={index}
+                  className="hover:shadow-elevated transition-all duration-300 border-border"
+                >
                   <CardContent className="p-6 text-center">
                     <div className="w-12 h-12 bg-gradient-ocean rounded-full flex items-center justify-center mx-auto mb-4">
                       <IconComponent className="w-6 h-6 text-white" />
@@ -54,11 +57,11 @@ const Contact = () => {
                     <p className="text-sm text-muted-foreground mb-3">
                       {method.description}
                     </p>
-                    <Button 
-                      variant="outline" 
+                    <Button
+                      variant="outline"
                       size="sm"
                       className="hover:bg-ocean-light/20 border-ocean-primary text-ocean-primary"
-                      onClick={() => window.open(method.href, '_blank')}
+                      onClick={() => window.open(method.href, "_blank")}
                     >
                       Connect
                     </Button>
@@ -76,19 +79,23 @@ const Contact = () => {
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 className="bg-gradient-ocean text-primary-foreground hover:shadow-elevated transition-all duration-300"
-                onClick={() => window.open("mailto:logan@example.edu", '_blank')}
+                onClick={() =>
+                  window.open("mailto:loganmw3@illinois.edu", "_blank")
+                }
               >
                 <Mail className="w-5 h-5 mr-2" />
                 Send Email
               </Button>
-              <Button 
-                size="lg" 
+              <Button
+                size="lg"
                 variant="outline"
                 className="border-ocean-primary text-ocean-primary hover:bg-ocean-light/20"
-                onClick={() => window.open("https://linkedin.com/in/logan", '_blank')}
+                onClick={() =>
+                  window.open("https://linkedin.com/in/loganmw3", "_blank")
+                }
               >
                 <Linkedin className="w-5 h-5 mr-2" />
                 Connect on LinkedIn

@@ -50,18 +50,19 @@ const Navigation = () => {
             onClick={() => scrollToSection("hero")}
             className="text-ocean-deep font-semibold text-lg hover:bg-ocean-light/20"
           >
-            Logan
+            Logan Wonnacott
           </Button>
-          
+
           <div className="hidden md:flex space-x-1">
             {navItems.map((item) => (
               <Button
                 key={item.id}
                 variant={activeSection === item.id ? "default" : "ghost"}
                 onClick={() => scrollToSection(item.id)}
-                className={activeSection === item.id ? 
-                  "bg-gradient-ocean text-primary-foreground" : 
-                  "hover:bg-ocean-light/20"
+                className={
+                  activeSection === item.id
+                    ? "bg-gradient-ocean text-primary-foreground"
+                    : "hover:bg-ocean-light/20"
                 }
               >
                 {item.label}
