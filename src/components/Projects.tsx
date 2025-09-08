@@ -54,6 +54,48 @@ const Projects = () => {
       githubUrl: "#",
       demoUrl: null,
     },
+    {
+      title: "Neural Network Accelerator",
+      problem:
+        "Machine learning inference too slow for real-time edge computing applications.",
+      highlights: [
+        "Designed custom hardware accelerator using FPGA",
+        "Implemented optimized matrix multiplication units",
+        "Created Python toolkit for model quantization",
+      ],
+      impact: "Achieved 85% faster inference with 60% lower power consumption",
+      techStack: ["Verilog", "FPGA", "Python", "TensorFlow", "Vivado"],
+      githubUrl: "#",
+      demoUrl: null,
+    },
+    {
+      title: "Neural Network Accelerator",
+      problem:
+        "Machine learning inference too slow for real-time edge computing applications.",
+      highlights: [
+        "Designed custom hardware accelerator using FPGA",
+        "Implemented optimized matrix multiplication units",
+        "Created Python toolkit for model quantization",
+      ],
+      impact: "Achieved 85% faster inference with 60% lower power consumption",
+      techStack: ["Verilog", "FPGA", "Python", "TensorFlow", "Vivado"],
+      githubUrl: "#",
+      demoUrl: null,
+    },
+    {
+      title: "Neural Network Accelerator",
+      problem:
+        "Machine learning inference too slow for real-time edge computing applications.",
+      highlights: [
+        "Designed custom hardware accelerator using FPGA",
+        "Implemented optimized matrix multiplication units",
+        "Created Python toolkit for model quantization",
+      ],
+      impact: "Achieved 85% faster inference with 60% lower power consumption",
+      techStack: ["Verilog", "FPGA", "Python", "TensorFlow", "Vivado"],
+      githubUrl: "#",
+      demoUrl: null,
+    },
   ];
 
   return (
