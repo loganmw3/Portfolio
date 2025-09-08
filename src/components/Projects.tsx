@@ -13,13 +13,14 @@ const Projects = () => {
   const projects = [
     {
       title: "Illinix",
-      problem: "Unix Inspired Operating system",
+      problem:
+        "Building a Unix-inspired operating system from scratch to explore the fundamentals of process management, memory, and system design.",
       highlights: [
         "Collaborated with a team to design and develop a Unix-like operating system using C and RISCV assembly on a QEMU simulated CPU",
         "Implemented the Virtual-IO Block device driver, processes and forking with reference counting, paging with virtual memory",
         "Conducted unit tests using GDB. Created C programs to validate memory allocation and functionality",
       ],
-      impact: "Achieved 99.8% data capture reliability at target frequency",
+      // impact: "Achieved 99.8% data capture reliability at target frequency",
       techStack: ["C/C++", "GitHub", "RISC-V Assembly", "GDB", "UART"],
       githubUrl: "#",
       demoUrl: "#",
@@ -27,31 +28,31 @@ const Projects = () => {
     {
       title: "PacMan",
       problem:
-        "Students needed efficient indoor navigation for complex multi-building campus.",
+        "Bringing classic arcade nostalgia to the web with a playable Pac-Man experience.",
       highlights: [
         "Collaborated closely with a teammate to design and implement a fully functional PacMan game from the ground up on an Urbana FPGA development board",
         "Developed USB and AXI drivers to enable responsive input from both keyboard peripherals",
         "Recreated ghost personalities by implementing unique algorithms to mimic original game mechanics",
         "Prioritized communication, task-sharing, and thorough testing to ensure smooth integration across hardware and logic components",
       ],
-      impact: "Reduced average navigation time by 35% for 2,000+ users",
+      // impact: "Reduced average navigation time by 35% for 2,000+ users",
       techStack: ["Vivado", "SystemVerilog", "Vitus", "C", "FPGA"],
       githubUrl: "#",
       demoUrl: "#",
     },
     {
-      title: "Neural Network Accelerator",
-      problem:
-        "Machine learning inference too slow for real-time edge computing applications.",
-      highlights: [
-        "Designed custom hardware accelerator using FPGA",
-        "Implemented optimized matrix multiplication units",
-        "Created Python toolkit for model quantization",
-      ],
-      impact: "Achieved 85% faster inference with 60% lower power consumption",
-      techStack: ["Verilog", "FPGA", "Python", "TensorFlow", "Vivado"],
-      githubUrl: "#",
-      demoUrl: null,
+      // title: "Neural Network Accelerator",
+      // problem:
+      //   "Machine learning inference too slow for real-time edge computing applications.",
+      // highlights: [
+      //   "Designed custom hardware accelerator using FPGA",
+      //   "Implemented optimized matrix multiplication units",
+      //   "Created Python toolkit for model quantization",
+      // ],
+      // impact: "Achieved 85% faster inference with 60% lower power consumption",
+      // techStack: ["Verilog", "FPGA", "Python", "TensorFlow", "Vivado"],
+      // githubUrl: "#",
+      // demoUrl: null,
     },
   ];
 
@@ -94,11 +95,11 @@ const Projects = () => {
                   ))}
                 </ul>
 
-                <div className="p-3 bg-sand-light rounded-lg">
+                {/* <div className="p-3 bg-sand-light rounded-lg">
                   <p className="text-sm font-medium text-ocean-deep">
                     📈 {project.impact}
                   </p>
-                </div>
+                </div> */}
 
                 <div className="flex flex-wrap gap-2">
                   {project.techStack.map((tech, i) => (
