@@ -30,7 +30,7 @@ const Projects = () => {
         "Git",
         "Computer Architecture",
       ],
-      githubUrl: "#", // put your repo link if public
+      githubUrl: "https://github.com/loganmw3/ooo", // put your repo link if public
       demoUrl: null,
     },
     {
@@ -53,7 +53,7 @@ const Projects = () => {
         "C++",
         "Git",
       ],
-      githubUrl: "#",
+      githubUrl: "https://github.com/loganmw3/rppg-python",
       demoUrl: "#", // could be a short demo video or page
     },
     {
@@ -65,7 +65,7 @@ const Projects = () => {
         "Verifying functional correctness using a Python-based cocotb testbench with automated and randomized tests",
       ],
       techStack: ["SystemVerilog", "Python", "cocotb", "Git"],
-      githubUrl: "#",
+      githubUrl: "https://github.com/loganmw3/sv",
       demoUrl: null,
     },
     {
