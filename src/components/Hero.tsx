@@ -24,9 +24,9 @@ const Hero = () => {
             Computer Engineering Student
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
-            Engineering student focused on efficient systems and clean
-            interfaces. Building reliable embedded and web systems with clear,
-            measurable impact.
+            Focused on systems design and computer architecture, with interests
+            in performance-critical hardware and software for modern AI and
+            accelerator-based systems.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">

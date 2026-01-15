@@ -4,18 +4,16 @@ import { Card, CardContent } from "@/components/ui/card";
 const About = () => {
   const skills = [
     "Python",
+    "SystemVerilog",
+    "Cuda",
+    "cocotb",
     "Pytorch",
     "Scikit-Learn",
     "Tensorflow",
     "C/C++",
-    "JavaScript",
-    "HTML/CSS",
-    "React",
-    "Node.js",
     "Linux",
     "Git",
     "FPGA",
-    "PostgreSQL",
     "Pandas",
   ];
 
@@ -79,21 +77,20 @@ const About = () => {
                     <span className="w-3 h-3 rounded-full bg-ocean-primary mr-3"></span>
                     <span className="font-medium">Current Focus:</span>
                     <span className="ml-2">
-                      Signal Processing & Embedded Systems
+                      Parallel Programming & Models of Computation
                     </span>
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <span className="w-3 h-3 rounded-full bg-sand-accent mr-3"></span>
                     <span className="font-medium">Learning:</span>
-                    <span className="ml-2">
-                      Computer Architecture & Machine Learning
-                    </span>
+                    <span className="ml-2">CUDA Programming</span>
                   </div>
                   <div className="flex items-center text-sm text-muted-foreground">
                     <span className="w-3 h-3 rounded-full bg-ocean-light mr-3"></span>
                     <span className="font-medium">Interested in:</span>
                     <span className="ml-2">
-                      Artificial Intelligence & Probabilistic Models
+                      Computer Architecture, Hardware Acceleration for AI/ML,
+                      and Probabilistic Models
                     </span>
                   </div>
                 </div>

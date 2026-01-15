@@ -75,7 +75,7 @@ const Contact = () => {
             <div className="flex items-center justify-center mb-4">
               <MapPin className="w-5 h-5 text-ocean-primary mr-2" />
               <span className="text-muted-foreground">
-                Open to opportunities nationwide and remote work
+                Open to opportunities nationwide
               </span>
             </div>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
