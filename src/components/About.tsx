@@ -72,23 +72,27 @@ const About = () => {
                   ))}
                 </div>
 
-                <div className="mt-8 space-y-4">
-                  <div className="flex items-center text-sm text-muted-foreground">
-                    <span className="w-3 h-3 rounded-full bg-ocean-primary mr-3"></span>
+                <div className="mt-8 space-y-5">
+                  <div className="flex items-start text-sm text-muted-foreground">
+                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-primary mr-3 flex-shrink-0"></span>
                     <span className="font-medium">Current Focus:</span>
-                    <span className="ml-2">
+                    <span className="ml-2 leading-relaxed">
                       Parallel Programming & Models of Computation
                     </span>
                   </div>
-                  <div className="flex items-center text-sm text-muted-foreground">
-                    <span className="w-3 h-3 rounded-full bg-sand-accent mr-3"></span>
+
+                  <div className="flex items-start text-sm text-muted-foreground">
+                    <span className="w-3 h-3 mt-1 rounded-full bg-sand-accent mr-3 flex-shrink-0"></span>
                     <span className="font-medium">Learning:</span>
-                    <span className="ml-2">CUDA Programming</span>
+                    <span className="ml-2 leading-relaxed">
+                      CUDA Programming
+                    </span>
                   </div>
-                  <div className="flex items-center text-sm text-muted-foreground">
-                    <span className="w-3 h-3 rounded-full bg-ocean-light mr-3"></span>
+
+                  <div className="flex items-start text-sm text-muted-foreground">
+                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-light mr-3 flex-shrink-0"></span>
                     <span className="font-medium">Interested in:</span>
-                    <span className="ml-2">
+                    <span className="ml-2 leading-relaxed">
                       Computer Architecture, Hardware Acceleration for AI/ML,
                       and Probabilistic Models
                     </span>
