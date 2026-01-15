@@ -37,6 +37,7 @@ const About = () => {
                 <h3 className="text-2xl font-semibold text-ocean-deep mb-6">
                   Focus Areas
                 </h3>
+
                 <div className="space-y-4 text-foreground leading-relaxed">
                   <p>
                     I’m interested in systems design and computer architecture,
@@ -63,38 +64,38 @@ const About = () => {
                   Technical Skills
                 </h3>
 
-                {/* SKILLS GRID */}
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                {/* SKILL PILLS */}
+                <div className="flex flex-wrap gap-3">
                   {skills.map((skill, index) => (
                     <Badge
                       key={index}
                       variant="secondary"
-                      className="justify-center text-sm py-2 px-4 hover:bg-ocean-light/30 transition-colors"
+                      className="text-sm px-4 py-2 leading-none hover:bg-ocean-light/30 transition-colors"
                     >
                       {skill}
                     </Badge>
                   ))}
                 </div>
 
-                {/* FOCUS ROWS */}
-                <div className="mt-8 space-y-5">
+                {/* INFO ROWS */}
+                <div className="mt-8 space-y-4">
                   <div className="flex items-start text-sm text-muted-foreground">
-                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-primary mr-3 flex-shrink-0"></span>
-                    <span className="font-medium w-32">Current Focus</span>
+                    <span className="w-2.5 h-2.5 mt-1.5 rounded-full bg-ocean-primary mr-3 flex-shrink-0" />
+                    <span className="font-medium mr-2">Current Focus:</span>
                     <span className="leading-relaxed">
                       Parallel Programming & Models of Computation
                     </span>
                   </div>
 
                   <div className="flex items-start text-sm text-muted-foreground">
-                    <span className="w-3 h-3 mt-1 rounded-full bg-sand-accent mr-3 flex-shrink-0"></span>
-                    <span className="font-medium w-32">Learning</span>
+                    <span className="w-2.5 h-2.5 mt-1.5 rounded-full bg-sand-accent mr-3 flex-shrink-0" />
+                    <span className="font-medium mr-2">Learning:</span>
                     <span className="leading-relaxed">CUDA Programming</span>
                   </div>
 
                   <div className="flex items-start text-sm text-muted-foreground">
-                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-light mr-3 flex-shrink-0"></span>
-                    <span className="font-medium w-32">Interested In</span>
+                    <span className="w-2.5 h-2.5 mt-1.5 rounded-full bg-ocean-light mr-3 flex-shrink-0" />
+                    <span className="font-medium mr-2">Interested in:</span>
                     <span className="leading-relaxed">
                       Computer Architecture, Hardware Acceleration for AI/ML,
                       and Probabilistic Models
