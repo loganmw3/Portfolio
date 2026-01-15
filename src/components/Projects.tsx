@@ -1,6 +1,5 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
-
 const About = () => {
   const skills = [
     "Python",
@@ -16,7 +15,6 @@ const About = () => {
     "FPGA",
     "Pandas",
   ];
-
   return (
     <section id="about" className="py-20 bg-wave-pattern">
       <div className="container mx-auto px-6">
@@ -29,7 +27,6 @@ const About = () => {
               Passionate about making a difference.
             </p>
           </div>
-
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <Card className="shadow-gentle border-border">
               <CardContent className="p-8">
@@ -54,13 +51,11 @@ const About = () => {
                 </div>
               </CardContent>
             </Card>
-
             <Card className="shadow-gentle border-border">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-ocean-deep mb-6">
                   Technical Skills
                 </h3>
-
                 <div className="flex flex-wrap gap-3">
                   {skills.map((skill, index) => (
                     <Badge
@@ -72,26 +67,23 @@ const About = () => {
                     </Badge>
                   ))}
                 </div>
-
                 <div className="mt-8 space-y-5">
                   <div className="flex items-start text-sm text-muted-foreground">
-                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-primary mr-3 flex-shrink-0" />
+                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-primary mr-3 flex-shrink-0"></span>
                     <span className="font-medium">Current Focus:</span>
                     <span className="ml-2 leading-relaxed">
                       Parallel Programming & Models of Computation
                     </span>
                   </div>
-
                   <div className="flex items-start text-sm text-muted-foreground">
-                    <span className="w-3 h-3 mt-1 rounded-full bg-sand-accent mr-3 flex-shrink-0" />
+                    <span className="w-3 h-3 mt-1 rounded-full bg-sand-accent mr-3 flex-shrink-0"></span>
                     <span className="font-medium">Learning:</span>
                     <span className="ml-2 leading-relaxed">
                       CUDA Programming
                     </span>
                   </div>
-
                   <div className="flex items-start text-sm text-muted-foreground">
-                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-light mr-3 flex-shrink-0" />
+                    <span className="w-3 h-3 mt-1 rounded-full bg-ocean-light mr-3 flex-shrink-0"></span>
                     <span className="font-medium">Interested in:</span>
                     <span className="ml-2 leading-relaxed">
                       Computer Architecture, Hardware Acceleration for AI/ML,
@@ -107,5 +99,4 @@ const About = () => {
     </section>
   );
 };
-
 export default About;
