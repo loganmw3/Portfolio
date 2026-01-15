@@ -9,14 +9,14 @@ const Contact = () => {
       label: "Email",
       value: "loganmw3@illinois.edu",
       href: "mailto:loganmw3@illinois.edu",
-      description: "Best for project inquiries",
+      description: "Best to reach me",
     },
     {
       icon: Github,
       label: "GitHub",
       value: "github.com/loganmw3",
       href: "https://github.com/loganmw3",
-      description: "Code and open source",
+      description: "Code and projects",
     },
     {
       icon: Linkedin,
