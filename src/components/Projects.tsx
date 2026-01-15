@@ -11,42 +11,6 @@ import { Github, ExternalLink } from "lucide-react";
 
 const Projects = () => {
   const projects = [
-    {
-      title: "Illinix",
-      problem:
-        "Building a Unix-inspired operating system from scratch to explore the fundamentals of process management, memory, and system design.",
-      highlights: [
-        "Collaborated with a team to design and develop a Unix-like operating system using C and RISC-V assembly on a QEMU simulated CPU",
-        "Implemented the VirtIO block device driver, processes and forking with reference counting, paging with virtual memory",
-        "Conducted unit tests using GDB and created C programs to validate memory allocation and functionality",
-      ],
-      techStack: ["C", "Git", "RISC-V Assembly", "GDB", "QEMU", "VirtIO"],
-      githubUrl: "#",
-      demoUrl: null,
-    },
-    {
-      title: "PacMan (FPGA)",
-      problem:
-        "Bringing classic arcade nostalgia to hardware with a playable Pac-Man experience on an FPGA board.",
-      highlights: [
-        "Collaborated with a teammate to design and implement a fully functional Pac-Man game on an Urbana FPGA development board",
-        "Developed USB and AXI drivers to enable responsive input from keyboard peripherals",
-        "Recreated ghost personalities by implementing unique algorithms to mimic original game mechanics",
-        "Prioritized communication, task-sharing, and thorough testing to ensure smooth integration across hardware and game logic",
-      ],
-      techStack: [
-        "Vivado",
-        "SystemVerilog",
-        "Vitis",
-        "C",
-        "FPGA",
-        "AXI",
-        "USB",
-      ],
-      githubUrl: "#",
-      demoUrl: "#",
-    },
-
     // === Resume Projects ===
     {
       title: "Out-of-Order RISC-V Processor",
@@ -103,6 +67,41 @@ const Projects = () => {
       techStack: ["SystemVerilog", "Python", "cocotb", "Git"],
       githubUrl: "#",
       demoUrl: null,
+    },
+    {
+      title: "Illinix",
+      problem:
+        "Building a Unix-inspired operating system from scratch to explore the fundamentals of process management, memory, and system design.",
+      highlights: [
+        "Collaborated with a team to design and develop a Unix-like operating system using C and RISC-V assembly on a QEMU simulated CPU",
+        "Implemented the VirtIO block device driver, processes and forking with reference counting, paging with virtual memory",
+        "Conducted unit tests using GDB and created C programs to validate memory allocation and functionality",
+      ],
+      techStack: ["C", "Git", "RISC-V Assembly", "GDB", "QEMU", "VirtIO"],
+      githubUrl: "#",
+      demoUrl: null,
+    },
+    {
+      title: "PacMan (FPGA)",
+      problem:
+        "Bringing classic arcade nostalgia to hardware with a playable Pac-Man experience on an FPGA board.",
+      highlights: [
+        "Collaborated with a teammate to design and implement a fully functional Pac-Man game on an Urbana FPGA development board",
+        "Developed USB and AXI drivers to enable responsive input from keyboard peripherals",
+        "Recreated ghost personalities by implementing unique algorithms to mimic original game mechanics",
+        "Prioritized communication, task-sharing, and thorough testing to ensure smooth integration across hardware and game logic",
+      ],
+      techStack: [
+        "Vivado",
+        "SystemVerilog",
+        "Vitis",
+        "C",
+        "FPGA",
+        "AXI",
+        "USB",
+      ],
+      githubUrl: "#",
+      demoUrl: "#",
     },
 
     // {
