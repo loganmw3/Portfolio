@@ -179,14 +179,24 @@ const Projects = () => {
                   size="sm"
                   variant="outline"
                   className="flex-1 hover:bg-ocean-light/20"
+                  asChild
                 >
-                  <Github className="w-4 h-4 mr-2" />
-                  Code
+                  <a href={project.githubUrl} target="_blank" rel="noreferrer">
+                    <Github className="w-4 h-4 mr-2" />
+                    Code
+                  </a>
                 </Button>
+
                 {project.demoUrl && (
-                  <Button size="sm" className="flex-1 bg-gradient-ocean">
-                    <ExternalLink className="w-4 h-4 mr-2" />
-                    Demo
+                  <Button
+                    size="sm"
+                    className="flex-1 bg-gradient-ocean"
+                    asChild
+                  >
+                    <a href={project.demoUrl} target="_blank" rel="noreferrer">
+                      <ExternalLink className="w-4 h-4 mr-2" />
+                      Demo
+                    </a>
                   </Button>
                 )}
               </CardFooter>
