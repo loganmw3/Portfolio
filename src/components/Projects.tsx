@@ -13,7 +13,7 @@ const About = () => {
     "Linux",
     "Git",
     "FPGA",
-    "Pandas",
+    "Pandas", //
   ];
   return (
     <section id="about" className="py-20 bg-wave-pattern">
