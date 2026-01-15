@@ -16,30 +16,95 @@ const Projects = () => {
       problem:
         "Building a Unix-inspired operating system from scratch to explore the fundamentals of process management, memory, and system design.",
       highlights: [
-        "Collaborated with a team to design and develop a Unix-like operating system using C and RISCV assembly on a QEMU simulated CPU",
-        "Implemented the Virtual-IO Block device driver, processes and forking with reference counting, paging with virtual memory",
-        "Conducted unit tests using GDB. Created C programs to validate memory allocation and functionality",
+        "Collaborated with a team to design and develop a Unix-like operating system using C and RISC-V assembly on a QEMU simulated CPU",
+        "Implemented the VirtIO block device driver, processes and forking with reference counting, paging with virtual memory",
+        "Conducted unit tests using GDB and created C programs to validate memory allocation and functionality",
       ],
-      // impact: "Achieved 99.8% data capture reliability at target frequency",
-      techStack: ["C/C++", "GitHub", "RISC-V Assembly", "GDB", "UART"],
+      techStack: ["C", "Git", "RISC-V Assembly", "GDB", "QEMU", "VirtIO"],
       githubUrl: "#",
-      demoUrl: "#",
+      demoUrl: null,
     },
     {
-      title: "PacMan",
+      title: "PacMan (FPGA)",
       problem:
-        "Bringing classic arcade nostalgia to the web with a playable Pac-Man experience.",
+        "Bringing classic arcade nostalgia to hardware with a playable Pac-Man experience on an FPGA board.",
       highlights: [
-        "Collaborated closely with a teammate to design and implement a fully functional PacMan game from the ground up on an Urbana FPGA development board",
-        "Developed USB and AXI drivers to enable responsive input from both keyboard peripherals",
+        "Collaborated with a teammate to design and implement a fully functional Pac-Man game on an Urbana FPGA development board",
+        "Developed USB and AXI drivers to enable responsive input from keyboard peripherals",
         "Recreated ghost personalities by implementing unique algorithms to mimic original game mechanics",
-        "Prioritized communication, task-sharing, and thorough testing to ensure smooth integration across hardware and logic components",
+        "Prioritized communication, task-sharing, and thorough testing to ensure smooth integration across hardware and game logic",
       ],
-      // impact: "Reduced average navigation time by 35% for 2,000+ users",
-      techStack: ["Vivado", "SystemVerilog", "Vitus", "C", "FPGA"],
+      techStack: [
+        "Vivado",
+        "SystemVerilog",
+        "Vitis",
+        "C",
+        "FPGA",
+        "AXI",
+        "USB",
+      ],
       githubUrl: "#",
       demoUrl: "#",
     },
+
+    // === Resume Projects ===
+    {
+      title: "Out-of-Order RISC-V Processor",
+      problem:
+        "Architecting an out-of-order (OoO) RISC-V core to explore dynamic scheduling, performance, and microarchitectural tradeoffs.",
+      highlights: [
+        "Architected an OoO RV32I/M core using Tomasulo’s algorithm (reservation stations, register renaming, ROB)",
+        "Implemented instruction/data caches with next-line prefetching and a common data bus for dynamic scheduling",
+        "Achieved successful synthesis at 700 MHz (140% of 500 MHz baseline) via timing-driven refinement and microarchitectural optimization",
+        "Personal: Designed and integrated a GShare-tournament branch predictor achieving 92% prediction accuracy; extending with a TAGE-style predictor (in progress)",
+      ],
+      techStack: [
+        "SystemVerilog",
+        "RISC-V (RV32I/M)",
+        "Synopsys VCS",
+        "Verdi",
+        "Git",
+        "Computer Architecture",
+      ],
+      githubUrl: "#", // put your repo link if public
+      demoUrl: null,
+    },
+    {
+      title: "rPPG Heart-Rate Measurement",
+      problem:
+        "Estimating heart rate from a standard camera feed using computer vision + signal processing for real-time physiological measurement.",
+      highlights: [
+        "Built an rPPG pipeline in Python + OpenCV to estimate heart rate from a webcam stream",
+        "Implemented face/skin ROI detection, temporal band-pass filtering, motion compensation, and FFT-based frequency analysis",
+        "Used Independent Component Analysis (ICA) to separate physiological color-signal changes from noise and reduce motion/lighting artifacts",
+        "Ported the pipeline to Android (Java/C++), enabling real-time on-device processing",
+      ],
+      techStack: [
+        "Python",
+        "OpenCV",
+        "Signal Processing",
+        "FFT",
+        "ICA",
+        "Android",
+        "C++",
+        "Git",
+      ],
+      githubUrl: "#",
+      demoUrl: "#", // could be a short demo video or page
+    },
+    {
+      title: "Tensor Processing Unit (In Progress)",
+      problem:
+        "Designing a custom TPU-style accelerator and validating correctness with modern verification workflows.",
+      highlights: [
+        "Designing and implementing a custom Tensor Processing Unit (TPU) architecture in SystemVerilog",
+        "Verifying functional correctness using a Python-based cocotb testbench with automated and randomized tests",
+      ],
+      techStack: ["SystemVerilog", "Python", "cocotb", "Git"],
+      githubUrl: "#",
+      demoUrl: null,
+    },
+
     // {
     //   title: "Neural Network Accelerator",
     //   problem:
