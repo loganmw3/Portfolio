@@ -54,7 +54,7 @@ const Projects = () => {
         "Git",
       ],
       githubUrl: "https://github.com/loganmw3/rppg-python",
-      demoUrl: "#", // could be a short demo video or page
+      demoUrl: "https://www.youtube.com/watch?v=Ffp9kcKH40o", // could be a short demo video or page
     },
     {
       title: "Tensor Processing Unit (In Progress)",
