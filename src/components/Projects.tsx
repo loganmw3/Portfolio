@@ -56,18 +56,18 @@ const Projects = () => {
       githubUrl: "https://github.com/loganmw3/rppg-python",
       demoUrl: "https://www.youtube.com/watch?v=Ffp9kcKH40o", // could be a short demo video or page
     },
-    {
-      title: "Tensor Processing Unit (In Progress)",
-      problem:
-        "Designing a custom TPU-style accelerator and validating correctness with modern verification workflows.",
-      highlights: [
-        "Designing and implementing a custom Tensor Processing Unit (TPU) architecture in SystemVerilog",
-        "Verifying functional correctness using a Python-based cocotb testbench with automated and randomized tests",
-      ],
-      techStack: ["SystemVerilog", "Python", "cocotb", "Git"],
-      githubUrl: "https://github.com/loganmw3/sv",
-      demoUrl: null,
-    },
+    // {
+    //   title: "Tensor Processing Unit (In Progress)",
+    //   problem:
+    //     "Designing a custom TPU-style accelerator and validating correctness with modern verification workflows.",
+    //   highlights: [
+    //     "Designing and implementing a custom Tensor Processing Unit (TPU) architecture in SystemVerilog",
+    //     "Verifying functional correctness using a Python-based cocotb testbench with automated and randomized tests",
+    //   ],
+    //   techStack: ["SystemVerilog", "Python", "cocotb", "Git"],
+    //   githubUrl: "https://github.com/loganmw3/sv",
+    //   demoUrl: null,
+    // },
     {
       title: "5-Stage Pipelined RISC-V Processor",
       problem:
