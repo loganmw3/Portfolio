@@ -15,7 +15,7 @@ const Projects = () => {
     {
       title: "Out-of-Order RISC-V Processor",
       problem:
-        "Architecting an out-of-order (OoO) RISC-V core to explore dynamic scheduling, performance, and microarchitectural tradeoffs.",
+        "Architected an out-of-order (OoO) RISC-V core to explore dynamic scheduling, performance, and microarchitectural tradeoffs.",
       highlights: [
         "Architected an OoO RV32I/M core using Tomasulo’s algorithm (reservation stations, register renaming, ROB)",
         "Implemented instruction/data caches with next-line prefetching and a common data bus for dynamic scheduling",
