@@ -69,16 +69,23 @@ const Projects = () => {
       demoUrl: null,
     },
     {
-      title: "Illinix",
+      title: "5-Stage Pipelined RISC-V Processor",
       problem:
-        "Building a Unix-inspired operating system from scratch to explore the fundamentals of process management, memory, and system design.",
+        "Desiged a 5-stage pipelined RISC-V processor to explore pipeline control.",
       highlights: [
-        "Collaborated with a team to design and develop a Unix-like operating system using C and RISC-V assembly on a QEMU simulated CPU",
-        "Implemented the VirtIO block device driver, processes and forking with reference counting, paging with virtual memory",
-        "Conducted unit tests using GDB and created C programs to validate memory allocation and functionality",
+        "Designed and implemented a 5-stage RISC-V pipeline consisting of instruction fetch, decode, execute, memory, and writeback stages",
+        "Implemented hazard detection and data forwarding logic to handle data and control hazards efficiently",
+        "Verified correct pipeline behavior through simulation and extensive test programs",
       ],
-      techStack: ["C", "Git", "RISC-V Assembly", "GDB", "QEMU", "VirtIO"],
-      githubUrl: null,
+      techStack: [
+        "SystemVerilog",
+        "RISC-V (RV32I)",
+        "Synopsys VCS",
+        "Verdi",
+        "Git",
+        "Computer Architecture",
+      ],
+      githubUrl: "https://github.com/loganmw3/pipeline", // put your repo link if public
       demoUrl: null,
     },
     {
@@ -102,6 +109,19 @@ const Projects = () => {
       ],
       githubUrl: "https://github.com/jacobmtorry/Pacman",
       demoUrl: "https://www.youtube.com/watch?v=ORMuu2yWL28&t=17s",
+    },
+    {
+      title: "Illinix",
+      problem:
+        "Building a Unix-inspired operating system from scratch to explore the fundamentals of process management, memory, and system design.",
+      highlights: [
+        "Collaborated with a team to design and develop a Unix-like operating system using C and RISC-V assembly on a QEMU simulated CPU",
+        "Implemented the VirtIO block device driver, processes and forking with reference counting, paging with virtual memory",
+        "Conducted unit tests using GDB and created C programs to validate memory allocation and functionality",
+      ],
+      techStack: ["C", "Git", "RISC-V Assembly", "GDB", "QEMU", "VirtIO"],
+      githubUrl: null,
+      demoUrl: null,
     },
 
     // {
