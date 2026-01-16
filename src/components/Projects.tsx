@@ -175,17 +175,23 @@ const Projects = () => {
               </CardContent>
 
               <CardFooter className="flex gap-2">
-                <Button
-                  size="sm"
-                  variant="outline"
-                  className="flex-1 hover:bg-ocean-light/20"
-                  asChild
-                >
-                  <a href={project.githubUrl} target="_blank" rel="noreferrer">
-                    <Github className="w-4 h-4 mr-2" />
-                    Code
-                  </a>
-                </Button>
+                {project.githubUrl && (
+                  <Button
+                    size="sm"
+                    variant="outline"
+                    className="flex-1 hover:bg-ocean-light/20"
+                    asChild
+                  >
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Github className="w-4 h-4 mr-2" />
+                      Code
+                    </a>
+                  </Button>
+                )}
 
                 {project.demoUrl && (
                   <Button
