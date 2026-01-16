@@ -78,7 +78,7 @@ const Projects = () => {
         "Conducted unit tests using GDB and created C programs to validate memory allocation and functionality",
       ],
       techStack: ["C", "Git", "RISC-V Assembly", "GDB", "QEMU", "VirtIO"],
-      githubUrl: "#",
+      githubUrl: null,
       demoUrl: null,
     },
     {
