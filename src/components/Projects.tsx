@@ -100,8 +100,8 @@ const Projects = () => {
         "AXI",
         "USB",
       ],
-      githubUrl: "#",
-      demoUrl: "#",
+      githubUrl: "https://github.com/jacobmtorry/Pacman",
+      demoUrl: "https://www.youtube.com/watch?v=ORMuu2yWL28&t=17s",
     },
 
     // {
