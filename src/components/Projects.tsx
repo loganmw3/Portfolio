@@ -143,7 +143,7 @@ const Projects = () => {
         "Python",
         "Verilator",
       ],
-      githubUrl: "github.com/loganmw3/sv", // add your repo link
+      githubUrl: "https://github.com/loganmw3/sv/tree/main/interview_prep", // add your repo link
       demoUrl: null,
     },
 
