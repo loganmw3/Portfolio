@@ -148,6 +148,7 @@ const Projects = () => {
     },
 
     // {
+    // beer please
     //   title: "Neural Network Accelerator",
     //   problem:
     //     "Machine learning inference too slow for real-time edge computing applications.",
