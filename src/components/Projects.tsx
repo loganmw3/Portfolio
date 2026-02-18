@@ -123,6 +123,29 @@ const Projects = () => {
       githubUrl: null,
       demoUrl: null,
     },
+    {
+      title: "RTL Interview Prep – Digital Design Problem Set",
+      problem:
+        "Worked through a series of hardware interview-style RTL design problems to strengthen combinational and sequential logic fundamentals.",
+      highlights: [
+        "Designed and verified common interview circuits including thermometer code detector, trailing zero counter, priority encoder, and integer log2 module",
+        "Implemented parameterized SystemVerilog modules using $clog2, generate constructs, and synthesizable always_comb logic",
+        "Explored bit-manipulation techniques such as transition counting, contiguous-bit detection, and mask-based pattern checks",
+        "Built Python/cocotb testbenches to create randomized and exhaustive test vectors for functional verification",
+        "Debugged synthesis and lint issues (width truncation, variable part-select limitations, break support, signed vs unsigned behavior)",
+      ],
+      techStack: [
+        "SystemVerilog",
+        "Digital Logic Design",
+        "Combinational Circuits",
+        "Bit Manipulation",
+        "Cocotb",
+        "Python",
+        "Verilator",
+      ],
+      githubUrl: "github.com/loganmw3/sv", // add your repo link
+      demoUrl: null,
+    },
 
     // {
     //   title: "Neural Network Accelerator",
