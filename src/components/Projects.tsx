@@ -89,6 +89,30 @@ const Projects = () => {
       demoUrl: null,
     },
     {
+      title: "Parameterized Systolic GEMM Engine",
+      problem:
+        "Exploring high-throughput matrix multiplication architectures by designing a scalable systolic-array-based GEMM compute engine.",
+      highlights: [
+        "Designed a parameterizable N×N systolic array of MAC units in SystemVerilog using generate loops and structured inter-PE forwarding",
+        "Implemented output-stationary dataflow with edge-streamed inputs and configurable K-dimension accumulation",
+        "Developed a Python + cocotb verification framework with randomized matrix generation and NumPy-based golden model comparison",
+        "Validated functional correctness across varying N and K parameters using Verilator-based simulation",
+        "Architected control logic for accumulation clear, valid gating, and operation-complete signaling",
+      ],
+      techStack: [
+        "SystemVerilog",
+        "Digital Design",
+        "Computer Architecture",
+        "Cocotb",
+        "Python",
+        "NumPy",
+        "Verilator",
+        "Generate Constructs",
+      ],
+      githubUrl: "https://github.com/loganmw3/sv/tree/main/Systolic_Array", // update if needed
+      demoUrl: null,
+    },
+    {
       title: "PacMan (FPGA)",
       problem:
         "Bringing classic arcade nostalgia to hardware with a playable Pac-Man experience on an FPGA board.",
