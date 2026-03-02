@@ -33,29 +33,6 @@ const Projects = () => {
       githubUrl: "https://github.com/loganmw3/ooo", // put your repo link if public
       demoUrl: null,
     },
-    {
-      title: "rPPG Heart-Rate Measurement",
-      problem:
-        "Estimating heart rate from a standard camera feed using computer vision + signal processing for real-time physiological measurement.",
-      highlights: [
-        "Built an rPPG pipeline in Python + OpenCV to estimate heart rate from a webcam stream",
-        "Implemented face/skin ROI detection, temporal band-pass filtering, motion compensation, and FFT-based frequency analysis",
-        "Used Independent Component Analysis (ICA) to separate physiological color-signal changes from noise and reduce motion/lighting artifacts",
-        "Ported the pipeline to Android (Java/C++), enabling real-time on-device processing",
-      ],
-      techStack: [
-        "Python",
-        "OpenCV",
-        "Signal Processing",
-        "FFT",
-        "ICA",
-        "Android",
-        "C++",
-        "Git",
-      ],
-      githubUrl: "https://github.com/loganmw3/rppg-python",
-      demoUrl: "https://www.youtube.com/watch?v=Ffp9kcKH40o", // could be a short demo video or page
-    },
     // {
     //   title: "Tensor Processing Unit (In Progress)",
     //   problem:
@@ -111,6 +88,29 @@ const Projects = () => {
       ],
       githubUrl: "https://github.com/loganmw3/sv/tree/main/Systolic_Array", // update if needed
       demoUrl: null,
+    },
+    {
+      title: "rPPG Heart-Rate Measurement",
+      problem:
+        "Estimating heart rate from a standard camera feed using computer vision + signal processing for real-time physiological measurement.",
+      highlights: [
+        "Built an rPPG pipeline in Python + OpenCV to estimate heart rate from a webcam stream",
+        "Implemented face/skin ROI detection, temporal band-pass filtering, motion compensation, and FFT-based frequency analysis",
+        "Used Independent Component Analysis (ICA) to separate physiological color-signal changes from noise and reduce motion/lighting artifacts",
+        "Ported the pipeline to Android (Java/C++), enabling real-time on-device processing",
+      ],
+      techStack: [
+        "Python",
+        "OpenCV",
+        "Signal Processing",
+        "FFT",
+        "ICA",
+        "Android",
+        "C++",
+        "Git",
+      ],
+      githubUrl: "https://github.com/loganmw3/rppg-python",
+      demoUrl: "https://www.youtube.com/watch?v=Ffp9kcKH40o", // could be a short demo video or page
     },
     {
       title: "PacMan (FPGA)",
