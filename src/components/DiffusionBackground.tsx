@@ -363,7 +363,7 @@ const DiffusionBackground = () => {
         0.5 + 0.5 * Math.sin((elapsedMs * Math.PI * 2) / PHASE_PERIOD);
     };
 
-    const fadeAlpha = () => 0.007 + diffPhase * 0.006;
+    const fadeAlpha = () => 0.0045 + diffPhase * 0.0035;
     const timeSpeed = () => 0.00012 + diffPhase * 0.00018;
     const strokeAlphaMod = () => 1 + (1 - diffPhase) * 0.3;
 
@@ -709,7 +709,6 @@ const DiffusionBackground = () => {
       slowFrameStreak = 0;
       applyQuality(qualityLevel + 1);
       resize();
-      resetScene();
     };
 
     const animate = (now = performance.now()) => {
