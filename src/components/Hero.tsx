@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Github, Mail } from "lucide-react";
-import waveDivider from "@/assets/wave-divider.png";
 
 const Hero = () => {
   const scrollToSection = (sectionId: string) => {
@@ -13,7 +12,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative bg-gradient-depth"
+      className="relative flex min-h-screen items-center justify-center"
     >
       <div className="container mx-auto px-6 text-center">
         <div className="max-w-4xl mx-auto">
@@ -21,7 +20,7 @@ const Hero = () => {
             Logan Wonnacott
           </h1>
           <h2 className="text-2xl md:text-3xl text-foreground mb-8">
-            Computer Engineering Student
+            Computer Engineering @ UIUC
           </h2>
           <p className="text-xl md:text-2xl text-muted-foreground mb-12 max-w-3xl mx-auto leading-relaxed">
             Focused on systems design and computer architecture, with interests
@@ -72,14 +71,6 @@ const Hero = () => {
             </Button>
           </div>
         </div>
-      </div>
-      {/* Wave divider */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <img
-          src={waveDivider}
-          alt=""
-          className="w-full h-8 object-cover opacity-20"
-        />
       </div>
       {/* Scroll indicator */}
       <Button

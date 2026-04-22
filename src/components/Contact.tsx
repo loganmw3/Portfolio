@@ -28,7 +28,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 bg-gradient-depth">
+    <section id="contact" className="py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold text-ocean-deep mb-6">
@@ -45,7 +45,7 @@ const Contact = () => {
               return (
                 <Card
                   key={index}
-                  className="hover:shadow-elevated transition-all duration-300 border-border"
+                  className="border-border/80 bg-card/80 transition-all duration-300 hover:shadow-elevated backdrop-blur-sm"
                 >
                   <CardContent className="p-6 text-center">
                     <div className="w-12 h-12 bg-gradient-ocean rounded-full flex items-center justify-center mx-auto mb-4">
@@ -71,7 +71,7 @@ const Contact = () => {
             })}
           </div>
 
-          <div className="bg-card rounded-lg p-8 shadow-gentle border border-border">
+          <div className="rounded-lg border border-border/80 bg-card/82 p-8 shadow-gentle backdrop-blur-sm">
             <div className="flex items-center justify-center mb-4">
               <MapPin className="w-5 h-5 text-ocean-primary mr-2" />
               <span className="text-muted-foreground">

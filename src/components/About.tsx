@@ -18,7 +18,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-wave-pattern">
+    <section id="about" className="py-20">
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16">
@@ -32,7 +32,7 @@ const About = () => {
 
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* LEFT CARD */}
-            <Card className="shadow-gentle border-border">
+            <Card className="border-border/80 bg-card/78 shadow-gentle backdrop-blur-sm">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-ocean-deep mb-6">
                   Focus Areas
@@ -58,7 +58,7 @@ const About = () => {
             </Card>
 
             {/* RIGHT CARD */}
-            <Card className="shadow-gentle border-border">
+            <Card className="border-border/80 bg-card/78 shadow-gentle backdrop-blur-sm">
               <CardContent className="p-8">
                 <h3 className="text-2xl font-semibold text-ocean-deep mb-6">
                   Technical Skills

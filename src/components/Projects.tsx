@@ -189,7 +189,7 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-background">
+    <section id="projects" className="py-20">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-ocean-deep mb-6">
@@ -205,7 +205,7 @@ const Projects = () => {
           {projects.map((project, index) => (
             <Card
               key={index}
-              className="hover:shadow-elevated transition-all duration-300 border-border"
+              className="border-border/80 bg-card/80 transition-all duration-300 hover:shadow-elevated backdrop-blur-sm"
             >
               <CardHeader>
                 <CardTitle className="text-xl text-ocean-deep">
@@ -227,7 +227,7 @@ const Projects = () => {
                   ))}
                 </ul>
 
-                <div className="p-3 bg-sand-light rounded-lg">
+                <div className="rounded-lg bg-sand-light/45 p-3">
                   {/* <p className="text-sm font-medium text-ocean-deep">
                     📈 {project.impact}
                   </p> */}
